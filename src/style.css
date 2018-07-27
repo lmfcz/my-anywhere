@@ -1,0 +1,9 @@
+body {
+    font-size: 20px;
+    background-color: aquamarine;
+}
+#app{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
