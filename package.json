@@ -4,8 +4,11 @@
   "description": "a tiny Node.js project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"lint": "eslint .",
+	"fix": "eslint --fix ."
   },
+  "pre-commit": [ "lint", "fix" ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lmfcz/my-anywhere.git"
